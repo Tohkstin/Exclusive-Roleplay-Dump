@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div-wrap {
+    display: block;
+    margin: 0 auto;
+    width: 28%;
+}
+
+.notify-wrap {
+    height: 100%;
+    position: relative;
+}
+
+.notification-bg {
+    position: relative;
+    font-family: "Montserrat";
+    background-color: rgb(10 0 30 / 46%);
+    color: #fff;
+    padding: 1.2vh 0;
+    border-radius: 0 1.4vh;
+    font-weight: 300;
+    font-size: 13px;
+    display: inline-block;
+    border: 1px solid #04001c52;
+    border-bottom: 2px solid;
+    border-bottom-color: #2d81ff;
+    width: 100%;
+    box-shadow: 6px 8px 19px rgb(0 0 0 / 60%);
+    top: 6vh;
+}
+
+.notification-bg span {
+    display: block;
+    width: 90%;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.notification-bg i {
+    color: #186bdf;
+}
+
+.red {
+    border-bottom-color: #cd1414;
+}
+
+.notification-bg.red i {
+    color: #9f0000;
+}
+
+.green {
+    border-bottom-color: #07bd34;
+}
+
+.notification-bg.green i {
+    color: #00741c;
+}
+
+.icon {
+    position: absolute;
+    top: 18px;
+    left: 12px;
+}
+
+.billboard {
+    position: absolute;
+    top: -50vh;
+    width: 100%;
+}
+
+.billboard-content {
+    width: 50vh;
+    background-color: #2e00ff66;
+    margin: 0 auto;
+    padding: 2vh;
+    border-radius: 2vh 0;
+    text-align: center;
+    box-shadow: 8px 8px 11px #00000070;
+}
+
+.billboard-title {
+    display: block;
+    font-weight: bold;
+    margin: 0 0 1vh 0;
+    text-shadow: 0 1px 0 #0000007f, 0 -1px 0 #c6b3ff7f;
+    color: #deb825;
+    font-size: 2vh;
+}
+
+.billboard-text {
+    display: block;
+    color: #f6f1ff;
+    font-size: 1.8vh;
+}
+
+.status-notification {
+    position: absolute;
+    top: -50vh;
+    width: 100%;
+}
+
+.status-content {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #00000066;
+    color: aliceblue;
+    border-radius: 0 0 1.2vh 1.2vh;
+    border-bottom: 2px solid #bf0000;
+    padding: 2vh;
+    box-shadow: 5px 5px 15px #00000052;
+}
+
+.status-title {
+    display: block;
+    font-size: 2.3vh;
+    margin: 0 0 1vh 0;
+    font-weight: bold;
+}
+
+.status-text {
+    display: block;
+}
+
+@keyframes flickerAnimation {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.15;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes flickerAnimation {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.15;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#status-indicator {
+    -webkit-animation: flickerAnimation 5s infinite;
+    animation: flickerAnimation 5s infinite;
+    display: none;
+    z-index: -10;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(220 38 38);
+    opacity: 0;
+    position: absolute;
+}

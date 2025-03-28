@@ -1,0 +1,6 @@
+QBShared.AddItems({
+    weapon_akt             = { name = 'weapon_akt',             label = 'AKT',                                     weight = 15000, type = 'weapon', ammotype = 'AMMO_RIFLE',  image = 'AKT_1.png',                  unique = true, useable = false, description = 'A rapid-fire, magazine-fed automatic rifle designed for infantry use' },
+    weapon_m9_p_chromium   = { name = 'weapon_m9_p_chromium',   label = 'M9 Pistol Chromium Purple-Pink Edition',  weight = 10000, type = 'weapon', ammotype = 'AMMO_PISTOL', image = 'WEAPON_M9_P_CHROMIUM.png',   unique = true, useable = false, description = 'A Stilysh pistol, designed for single fire rate use' },
+    weapon_arc15_mini      = { name = 'weapon_arc15_mini',      label = 'ARC15 MINI Chromium Purple-Pink Edition', weight = 15000, type = 'weapon', ammotype = 'AMMO_RIFLE',  image = 'WEAPON_ARC15_MINI.png',      unique = true, useable = false, description = 'A Rifle, designed for infantry use.' },
+    weapon_sniper_chromium = { name = 'weapon_sniper_chromium', label = 'SNIPER Chromium Purple-Pink Edition',     weight = 15000, type = 'weapon', ammotype = 'AMMO_SNIPER', image = 'WEAPON_SNIPER_CHROMIUM.png', unique = true, useable = false, description = 'A Sniper, designed for single shot deadly use.' },
+}) 

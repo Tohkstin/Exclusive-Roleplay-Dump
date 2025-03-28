@@ -1,0 +1,18 @@
+QBShared.AddItems({
+    --Kyros Weapon Pack Female
+    weapon_pmk14                 = { name = 'weapon_pmk14',     label = 'PINK MK14',        weight = 15000, type = 'weapon', ammotype = 'AMMO_RIFLE', image = 'WEAPON_PMK14.png', unique = true, useable = false, description = 'PINK MK14' },
+    weapon_pscar                 = { name = 'weapon_pscar',     label = 'PINK SCAR-H',      weight = 15000, type = 'weapon', ammotype = 'AMMO_RIFLE', image = 'WEAPON_PSCAR.png', unique = true, useable = false, description = 'PINK SCAR-H' },
+    weapon_pm4                   = { name = 'weapon_pm4',       label = 'PINK M4 SANDSM',   weight = 15000, type = 'weapon', ammotype = 'AMMO_RIFLE', image = 'WEAPON_PM4.png', unique = true, useable = false, description = 'PINK M4 SANDSM' },
+    weapon_pm4a1                 = { name = 'weapon_pm4a1',     label = 'PINK COLT M4A1',   weight = 15000, type = 'weapon', ammotype = 'AMMO_RIFLE', image = 'WEAPON_PM4A1.png', unique = true, useable = false, description = 'PINK COLT M4A1' },
+    weapon_pmk181                = { name = 'weapon_pmk181',    label = 'PINK MK18 M1',     weight = 15000, type = 'weapon', ammotype = 'AMMO_RIFLE', image = 'WEAPON_PMK181.png', unique = true, useable = false, description = 'PINK MK18 M1' },
+    weapon_fmicrodraco           = { name = 'weapon_fmicrodraco', label = 'PINK MICRODRACO',  weight = 15000, type = 'weapon', ammotype = 'AMMO_RIFLE', image = 'WEAPON_FMICRODRACO.png', unique = true, useable = false, description = 'PINK MICRODRACO' },
+    weapon_p1911kt               = { name = 'weapon_p1911kt',   label = 'PINK P1911KT',       weight = 5000, type = 'weapon', ammotype = 'AMMO_PISTOL', image = 'WEAPON_P1911KT.png', unique = true, useable = false, description = 'PINK 1911 KT' },
+    weapon_phk45                 = { name = 'weapon_phk45',     label = 'PINK HK45',          weight = 5000, type = 'weapon', ammotype = 'AMMO_PISTOL', image = 'WEAPON_PHK45.png', unique = true, useable = false, description = 'PINK HK45' },
+    weapon_pxds9                 = { name = 'weapon_pxds9',     label = 'PINK PXDS9',         weight = 5000, type = 'weapon', ammotype = 'AMMO_PISTOL', image = 'WEAPON_PXDS9.png', unique = true, useable = false, description = 'PINK XDS9' },
+    weapon_pglock17c             = { name = 'weapon_pglock17c', label = 'PINK P Glock 17C',   weight = 5000, type = 'weapon', ammotype = 'AMMO_PISTOL', image = 'WEAPON_PGLOCK17C.png', unique = true, useable = false, description = 'PINK GLOCK 17C' },
+    weapon_p941                  = { name = 'weapon_p941',      label = 'PINK P941',          weight = 5000, type = 'weapon', ammotype = 'AMMO_PISTOL', image = 'WEAPON_P941.png', unique = true, useable = false, description = 'PINK 941 PSL' },
+    weapon_pg19                  = { name = 'weapon_pg19',      label = 'PINK PG19',          weight = 5000, type = 'weapon', ammotype = 'AMMO_PISTOL', image = 'WEAPON_PG19.png', unique = true, useable = false, description = 'PINK GLOCK 19' },
+    weapon_psp320                = { name = 'weapon_psp320',    label = 'PINK PSP320',        weight = 5000, type = 'weapon', ammotype = 'AMMO_PISTOL', image = 'WEAPON_PSP320.png', unique = true, useable = false, description = 'PINK P320 RXP' },
+    weapon_spas12                = { name = 'weapon_spas12',    label = 'PINK SPAS-12',     weight = 15000, type = 'weapon', ammotype = 'AMMO_SHOTGUN', image = 'WEAPON_SPAS12.png', unique = true, useable = false, description = 'PINK SPAS-12' },
+    weapon_pmp9                  = { name = 'weapon_pmp9',      label = 'PINK B&T MP9',     weight = 7000, type = 'weapon', ammotype = 'AMMO_SMG', image = 'WEAPON_PMP9.png', unique = true, useable = false, description = 'PINK B&T MP9' },
+})

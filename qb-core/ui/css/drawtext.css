@@ -1,0 +1,24 @@
+#draw-text {
+    position: absolute;
+    display: block;
+    border-bottom: 0.3vh solid #471fda;
+    border-radius: 0 0.5vw 0 0;
+    background-color: #00000066;
+    box-shadow: 0.3vh 0.3vh 1vh #000000cc;
+    top: 20%;
+    left: 0;
+    overflow: hidden;
+    width: 0;
+    transition: all 250ms ease-in-out;
+}
+
+#draw-text-content {
+    margin: 1.4vh;
+    font-family: "Montserrat";
+    font-size: 1.5vh;
+    color: #d7d7d7;
+}
+
+.draw-text-activated {
+    background-color: rgba(77, 6, 202, 0.63) !important;
+}
